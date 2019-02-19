@@ -1,0 +1,20 @@
+:root {
+  --primaryColor: #19a0b9;
+  --primaryColorHover: #5ebcce;
+  --lightPurple: #e0ccf4;
+  --green: #6ebc3b;
+  --cyan: #26c6da;
+  --pink: #ec407a;
+  --indigo: #5c6bc0;
+  --orange: #f6a821;
+  --yellow: #ffc800;
+  --red: #ef5350;
+  --darkThemeBlack: #233142;
+  --darkThemeContent: #233142;
+  --darkThemeBar: #233142;
+  --darkThemeGrey: #455d7a;
+  --blackThemeBlack: #000;
+  --blackThemeContent: #000;
+  --blackThemeBar: #000;
+  --blackThemeGrey: #333;
+}

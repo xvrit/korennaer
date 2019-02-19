@@ -1,0 +1,4 @@
+.content-container {
+  margin-left: 20rem;
+  transition: margin-left .2s;
+}

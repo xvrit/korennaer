@@ -1,0 +1,72 @@
+{
+    "extends": [
+        "tslint:recommended",
+        "tslint-eslint-rules",
+        "tslint-react",
+        "tslint-config-prettier"
+    ],
+    "settings": {
+        "react": {
+            "createClass": "createReactClass",
+            "pragma": "React"
+        }
+    },
+    "plugins": [
+        "react",
+        "prettier",
+        "typescript",
+        "react-hooks"
+    ],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "ecmaFeatures": {
+            "jsx": true,
+            "classes": true,
+            "experimentalObjectRestSpead": true
+        }
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "rules": {
+        "jsx-key": 2,
+        "jsx-no-bind": 0,
+        "jsx-max-props-per-line": [
+            2,
+            {
+                "when": "multiline"
+            }
+        ],
+        "quotes": [
+            2,
+            "backtick",
+            {
+                "allowTemplateLiterals": true
+            }
+        ],
+        "arrow-return-shorthand": [
+            true,
+            "multiline"
+        ],
+        "object-curly-spacing": [
+            true,
+            "never"
+        ],
+        "no-console": false,
+        "interface-name": false,
+        "no-empty-interface": false,
+        "object-literal-shorthand": true,
+        "prefer-switch": true,
+        "prefer-template": [true, "allow-single-concat"],
+        "switch-final-break": [true, "always"],
+        "jsx-boolean-value": false,
+        "jsx-equals-spacing": "always",
+        "variable-name": false,
+        "jsx-no-lambda": false,
+        "curly": [true, "as-needed"],
+        "object-literal-sort-keys":false,
+        "react-hooks/rules-of-hooks": "error"
+    }
+}

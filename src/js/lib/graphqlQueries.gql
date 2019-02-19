@@ -1,0 +1,6 @@
+query getNetworks {
+  networks: getNetworks {
+    uuid
+    name
+  }
+}
